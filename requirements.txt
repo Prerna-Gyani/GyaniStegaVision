@@ -3,3 +3,4 @@ pillow
 qrcode
 opencv-python-headless
 numpy
+stegano
