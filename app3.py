@@ -5,7 +5,7 @@ import tempfile
 
 st.set_page_config(page_title="Stegano Image Hiding", layout="centered")
 
-st.title("🖼️ Invisible Image Steganography (Stegano - LSB)")
+st.title("🖼️ Invisible Image Steganography (LSB - Stegano)")
 
 # -------------------------------
 # ENCODE SECTION
@@ -39,7 +39,7 @@ if uploaded_image and secret_text:
             mime="image/png"
         )
 
-    st.info("👉 Image looks identical but contains hidden text (LSB steganography).")
+    st.success("✅ Text successfully hidden inside image.")
 
 # -------------------------------
 # DECODE SECTION
@@ -63,17 +63,17 @@ if decode_image:
             st.code(hidden_text)
         else:
             st.warning("⚠️ No hidden text detected.")
-    except Exception as e:
+    except Exception:
         st.error("❌ Error decoding image.")
 
 # -------------------------------
 # FOOTER
 # -------------------------------
 st.markdown("---")
-st.markdown("### ⚠️ Important Notes")
+st.markdown("### ⚠️ Notes")
 st.markdown("""
-- Uses LSB steganography via Stegano library  
-- Image size and appearance remain unchanged  
-- Works only for digital images  
-- ❌ Will NOT work after printing and capturing via camera  
+- Uses LSB steganography (Stegano)
+- Image size and appearance remain unchanged
+- Works only for digital images
+- ❌ Will NOT work after printing and re-capturing
 """)
