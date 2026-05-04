@@ -1,6 +1,6 @@
 streamlit
 pillow
+stegano
 qrcode
 opencv-python-headless
 numpy
-stegano
