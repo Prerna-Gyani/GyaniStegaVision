@@ -6,8 +6,82 @@ The project consists of two sections:
 ### 1. The main section - For Print Stegano
 ### 2. The check section - Stegano, Stegano with Gemini Integration 
 
-===
-## Section 1: app.py (DCT)
+---
+---
+
+## Section 1: 
+## app1.py (QR)
+Link: https://gyanistegavision.streamlit.app/
+# 🖼️ Print-Safe Image Steganography (QR-Based)
+
+This project encodes hidden text into images using QR codes, making it robust to real-world scenarios like printing and camera capture.
+
+---
+
+## 🚀 Features
+
+- Encode text into QR  
+- Embed QR into image  
+- Works after printing and camera capture  
+- Decode using OpenCV  
+- Streamlit interface  
+
+---
+
+## 🧠 Concept Used
+
+- QR Code Encoding  
+- Computer Vision (QR Detection)  
+
+---
+
+## ⚙️ Tech Stack
+
+- Streamlit  
+- OpenCV  
+- qrcode  
+- Pillow  
+
+---
+
+## 📦 Installation
+
+pip install -r requirements.txt
+
+---
+
+## ▶️ Run
+
+streamlit run app.py
+
+---
+
+## 📸 Workflow
+
+1. Upload image  
+2. Encode text  
+3. Download image  
+4. Print image  
+5. Capture photo  
+6. Upload to decode  
+
+---
+
+## ⚠️ Limitations
+
+- QR may be slightly visible  
+- Not fully invisible steganography  
+
+---
+
+## 📌 Best Use Case
+
+- Real-world data recovery after print  
+- Practical secure sharing  
+
+---
+---
+## app2.py (DCT)
 
 # 🖼️ Invisible Image Watermarking (DCT-Based)
 
@@ -69,10 +143,10 @@ streamlit run app.py
 - Less sensitive to minor distortions  
 
 ---
-
 ---
 
-## Section 2: app3.py (Stegano - LSB)
+## Section 2:
+## app3.py (Stegano - LSB)
 
 # 🖼️ Invisible Image Steganography App (Stegano - LSB)
 
