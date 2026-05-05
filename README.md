@@ -214,7 +214,72 @@ streamlit run app.py
 - Basic secure communication  
 
 ---
+---
 
-## 📜 License
+## app4.py (Stegano + Gemini)
+# 🧠 Steganography + Gemini AI Assistant
 
-Free for educational use
+This project combines image steganography with AI-powered analysis using Google Gemini API.
+
+---
+
+## 🚀 Features
+
+- Hide text inside image (LSB)  
+- Decode hidden text  
+- Ask AI questions about hidden content  
+- Dynamic model selection  
+- API key input from user  
+
+---
+
+## 🧠 Concepts Used
+
+- LSB Steganography  
+- Generative AI (Gemini API)  
+
+---
+
+## ⚙️ Tech Stack
+
+- Streamlit  
+- Stegano  
+- Pillow  
+- Google Generative AI  
+
+---
+
+## 🔑 Setup
+
+1. Get API key from Google AI Studio  
+2. Enter API key in sidebar  
+3. Enter model name (e.g. gemini-1.5-flash)  
+
+---
+
+## 📦 Installation
+
+pip install -r requirements.txt
+
+---
+
+## ▶️ Run
+
+streamlit run app.py
+
+---
+
+## ⚠️ Notes
+
+- Requires internet connection  
+- API usage may have limits  
+- LSB does NOT survive print and camera capture  
+
+---
+
+## 💡 Example Use
+
+- Decode hidden message  
+- Ask AI to summarize or analyze it  
+
+---
