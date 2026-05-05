@@ -83,6 +83,8 @@ streamlit run app.py
 ---
 ## app2.py (DCT)
 
+Link: https://gyanistegavision2.streamlit.app/
+
 # 🖼️ Invisible Image Watermarking (DCT-Based)
 
 This project implements frequency-domain watermarking using DCT (Discrete Cosine Transform). It embeds hidden text into an image with minimal visual distortion.
@@ -130,7 +132,7 @@ streamlit run app.py
 
 ## ⚠️ Limitations
 
-- Not fully robust to printing and camera capture  
+- Not fully robust to printing and camera capture but ok 
 - Sensitive to heavy compression  
 - Requires bit-length input  
 
@@ -283,3 +285,6 @@ streamlit run app.py
 - Ask AI to summarize or analyze it  
 
 ---
+
+Thankyou for visiting 
+Check out more projects on: https://share.streamlit.io/user/prerna-gyani
