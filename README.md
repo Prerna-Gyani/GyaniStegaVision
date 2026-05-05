@@ -285,6 +285,17 @@ streamlit run app.py
 - Ask AI to summarize or analyze it  
 
 ---
+---
+## 📊 Comparison
+
+| Method | Invisible | Same Size | Print Safe |
+|--------|----------|----------|-----------|
+| LSB (Stegano) | Yes | Yes | No |
+| DCT | Yes | Yes | Partial |
+| QR | No | Partial | Yes |
+
+
 
 Thankyou for visiting 
+
 Check out more projects on: https://share.streamlit.io/user/prerna-gyani
